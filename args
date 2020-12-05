@@ -1,3 +1,3 @@
 createCert -k files/private.key -c files/certificate.crt
-createReg -r files/reg.txt -p C:/Users/Monster/Desktop/info -l files/log.txt -h SHA-256 -k files/private.key
-check -r files/reg.txt -p C:/Users/Monster/Desktop/info -l files/log.txt -h SHA-256 -c files/certificate.crt
+createReg -r files/reg.txt -p info -l files/log.txt -h SHA-256 -k files/private.key
+check -r files/reg.txt -p info -l files/log.txt -h SHA-256 -c files/certificate.crt
